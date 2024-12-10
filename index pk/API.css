@@ -1,0 +1,173 @@
+body{
+    background-image: url(bt.png);
+    background:no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0PX;
+    font-size: 1rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.fundo{
+    width: 100%;
+    height: 100vh;
+
+}
+h1{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.pk{
+    margin-left: 50px; 
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(134, 0, 0, 0);
+    width: 100%;
+    height: 8%;
+    border-radius: 0px;
+    position: fixed;
+}
+.nav-list{
+    display:  flex;
+    align-items:  center;
+    margin-left: 1400px;
+    margin-top: 100px;
+    
+}
+.nav-list ul{
+    display:  flex;
+    align-items:  center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: rgb(236, 236, 236);
+    font-weight: 400;
+}
+iframe{
+    margin-left: 25%;
+    width: 50%;
+    height: 780px;
+    border-radius: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: -270px;
+}
+.center img{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    margin-top: -520px;
+    margin-left: 100px;
+    
+}
+.container {
+    
+    height: 14%;
+    border: 5px solid rgba(0, 0, 0, 0);
+    margin-top: -570px;
+    margin-left: 980px;
+    display: flex;
+    justify-content: center;
+    transform: translate(-63%, 20%);
+    position: absolute;
+    
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: -520px;
+    margin-left: 600px;
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    object-fit: contain;
+    
+}
+.button{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -520px;
+    margin-left: 100px;;
+}
+#busca {
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid rgb(134, 0, 0);
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -250px;
+    left: 820px;
+    margin: 0px;
+   
+}
+ 
+#button {
+    padding: 10px 20px;
+    background-color: rgb(20, 92, 18);
+    color: #fff;
+    font-size: 1rem;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: -160px;
+    left: 625px;
+    border-radius: 100%;
+    height: 10%;
+    width: 5%;
+    border-color: rgb(202, 198, 198);
+   
+}
+ 
+#button:hover {
+    background-color: rgb(180, 0, 0);
+}
+ 
+#error-message {
+    color: rgb(41, 39, 39);
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    display: none;
+    position: relative;
+    top: -280px;
+    left: 580px;
+    width: 40%;
+    height: 0;
+    padding: 0px;
+   
+}
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+    margin-right: 55px;
+  }
+#console-log{
+    padding: 0px;
+    margin-top: -380px;
+    margin-left: 830px;
+    font-size: 12px;
+    
+}
